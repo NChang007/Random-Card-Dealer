@@ -2,7 +2,10 @@
 body {
   background: darkslategray;
 }
-
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+}
 .card {
   display: inline-block;
   margin: auto;
@@ -33,3 +36,10 @@ body {
 .clubs::before, .clubs::after {content: '\2663';}
 .hearts::before, .hearts::after {content: '\2665';}
 .diams::before, .diams::after {content: '\2666';}
+
+.myBtn {
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: red;
+}
